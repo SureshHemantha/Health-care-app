@@ -1,0 +1,90 @@
+.Surgery{
+    background: url("12.jpg");
+   
+ 
+}
+.text-center{
+    color:whitesmoke;
+}
+
+
+
+
+  body {
+    background-color: #2f3742;
+    color: #dfe0e4;
+    font-family:  'Segoe UI',  'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  h1 {
+      font-weight: bold;
+    font-size: 100px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
+  }
+ 
+  h1 {
+    font-size: 100px;
+    text-align: center;
+    color: #fff;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #d32c20, 0 0 20px #0073e6, 0 0 25px #e94412, 0 0 30px #0073e6, 0 0 35px #19e612;
+    }
+    to {
+      text-shadow: 0 0 10px #fff, 0 0 20px rgb(113, 211, 34), 0 0 30px #e915b4, 0 0 40px #0073e6, 0 0 50px #13e600, 0 0 60px #cedd41, 0 0 70px #0073e6;
+    }
+  }
+
+
+
+
+
+
+
+
+  /* button */
+
+
+
+
+  .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+   
+}
+
+:root {
+    --clr-neon: hsl(317 100% 54%);
+    --clr-bg: hsl(323 21% 16%)
+}
+
+.button {
+    font-size: 20px;
+    height: 60px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-family: "Balsamiq Sans", cursive;
+    text-decoration: none;
+    color: var(--clr-neon);
+    border: var(--clr-neon) 3px solid;
+    background-color: transparent;
+    border-radius: 0.25em;
+    text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.45em currentColor;
+    box-shadow: inset 0 0 0.5em 0 var(--clr-neon), 0 0 0.5em 0 var(--clr-neon);
+    transition: all 0.5s
+}
+
+.button:hover {
+    background-color: var(--clr-neon);
+    color: #fff
+}
